@@ -33,3 +33,14 @@ export PATH="/usr/local/Cellar:$PATH"
 # Gem Path
 export GEM_HOME=$HOME/.gem
 export PATH=$GEM_HOME/bin:$PATH
+
+#PHP Path
+export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
+
+#Composer Path
+export PATH=${PATH}:~/.composer/vendor/bin
+
+#ADB Path
+export PATH=${PATH}:~/Documents/_and-sdk-mac_x86/platform-tools
+
+export EDITOR=mate
